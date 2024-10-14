@@ -1,0 +1,76 @@
+.stethoscope{
+    width: 200px;
+}
+
+body{
+    background-color: #d5efb4;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+}
+
+.links-buttons{
+    margin-top: 16px;
+    width: 80%;
+    background-color: #d5efb4;
+}
+
+.link-items{
+    width: 100%;
+    background-color: #d5efb4;
+    border-color: #3b365f;
+    border-style: solid;
+    border-radius: 1px;
+    border-radius: 24px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #3b365f;
+    display: flex;
+    align-items: center;
+    position: relative; 
+    margin: 8px;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+.link-items:active {
+    background-color: #9cc98a; /* Darker background when clicked */
+    transform: scale(0.98); /* Slightly shrinks the button when clicked */
+}
+
+.link-items img {
+    position: absolute;
+    right: 0; /* Moves the image to the right edge of its container */
+    margin-left: auto;
+}
+
+.link-items p {
+    margin: 0;
+}
+
+.arabic{
+    width: 48px;
+    height: 48px;
+    border-radius: 32px;
+    margin-right: 8px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #3b365f;
+}
+
