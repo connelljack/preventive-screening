@@ -1,3 +1,8 @@
+a {
+    color: inherit; /* Removes the default link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
 .stethoscope{
     width: 200px;
 }
@@ -6,7 +11,7 @@ body{
     background-color: #d5efb4;
     display: flex;
     justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
+    align-items: top; /* Centers content vertically */
     min-height: 100vh; /* Ensures the body takes up the full viewport height */
     margin: 0;
 }
